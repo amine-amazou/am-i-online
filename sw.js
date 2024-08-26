@@ -6,7 +6,7 @@ self.addEventListener("install", (event) => {
                 "./script.js",
                 "./sw.js",
                 "https://cdn.jsdelivr.net/gh/amine-amazou/ns-js@1.0.1/dist/NS.min.js",
-                "./logo.png",
+                "./icon.png",
             ]);
         })
     );
