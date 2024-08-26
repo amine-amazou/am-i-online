@@ -2,7 +2,7 @@
     "short_name": "Am I Online",
     "name": "Am I Online ?",
     "start_url": "/",
-    "background_color": "#0E1111",
+    "background_color": "#ffffff",
     "display": "standalone",
     "theme_color": "#ffffff",
     "icons": [
