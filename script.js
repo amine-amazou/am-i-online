@@ -17,10 +17,8 @@ if ("serviceWorker" in navigator) {
         .register("sw.js")
         .then((registration) => {
             console.log("Service worker registered");
-            console.log(registration);
         })
         .catch((err) => {
             console.log("Sercvice worker registration failed");
-            console.error(err);
         });
 }
