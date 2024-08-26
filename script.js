@@ -11,3 +11,16 @@ isOffline(() => {
     state.innerHTML = "You're offline :(";
     comment.innerHTML = "I'm waiting for ya to back online"
 }, true)
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+        .register("sw.js")
+        .then((registration) => {
+            console.log("Service worker registered");
+            console.log(registration);
+        })
+        .catch((err) => {
+            console.log("Sercvice worker registration failed");
+            console.error(err);
+        });
+}
