@@ -3,7 +3,7 @@
     "name": "Am I Online ?",
     "start_url": "/",
     "background_color": "#ffffff",
-    "display": "standalone",
+    "display": "minimal-ui",
     "theme_color": "#ffffff",
     "icons": [
        {
