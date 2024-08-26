@@ -2,14 +2,15 @@
     "short_name": "Am I Online",
     "name": "Am I Online ?",
     "start_url": "/",
-    "background_color": "#1c5680",
+    "background_color": "#0E1111",
     "display": "standalone",
-    "theme_color": "#1c5680",
+    "theme_color": "#0E1111",
     "icons": [
        {
            "src": "icon.png",
            "type": "image/png",
            "sizes": "128x128"
        }
-     ]
+     ],
+    "version": "1.0.0"
 }
